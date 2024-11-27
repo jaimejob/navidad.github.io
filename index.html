@@ -1,0 +1,113 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Descripción de Productos</title>
+    <link rel="stylesheet" href="style2.css">
+    <style>
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+        }
+        .product-info {
+            margin-bottom: 20px;
+        }
+        .product-image {
+            width: 100%;
+            cursor: pointer;
+        }
+        /* Estilos para el dropdown */
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+        .dropdown-content a:hover {
+            background-color: #f1f1f1;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Productos Disponibles</h1>
+
+        <div class="product-info">
+            <a href="chompa.html">
+                <img src="../../Documents/Sitio sin nombre 2/chompa.jpeg" alt="Chompa" class="product-image"/>
+				<div class="details">
+			<h2>Caracteristicas Principales</h2>
+			<ul>
+				<li>Calidad Superior</li>
+				<li>Sostenible y Ecoogico</li>
+				<li>Disenio Moderno yAtractivo</li>
+				</ul>
+				<p class="price">Solo <span>Bs.50</span>(Precio Regular: Bs. 75)</p>
+			</div>
+            </a>
+        </div>
+
+        <div class="product-info">
+            <a href="camisas.html">
+                <img src="../../Documents/Sitio sin nombre 2/camisas.jpeg" alt="Camisas" class="product-image"/>
+				<div class="details">
+			<h2>Caracteristicas Principales</h2>
+			<ul>
+				<li>Calidad Superior</li>
+				<li>Sostenible y Ecoogico</li>
+				<li>Disenio Moderno yAtractivo</li>
+				</ul>
+				<p class="price">Solo <span>Bs.50</span>(Precio Regular: Bs. 75)</p>
+			</div>
+            </a>
+        </div>
+
+        <div class="product-info">
+            <a href="pijama.html">
+                <img src="../../Documents/Sitio sin nombre 2/pijama.jpeg" alt="Pijama" class="product-image"/>
+				<div class="details">
+			<h2>Caracteristicas Principales</h2>
+			<ul>
+				<li>Calidad Superior</li>
+				<li>Sostenible y Ecoogico</li>
+				<li>Disenio Moderno yAtractivo</li>
+				</ul>
+				<p class="price">Solo <span>Bs.50</span>(Precio Regular: Bs. 75)</p>
+			</div>
+            </a>
+        </div>
+
+        <div class="product-info">
+            <a href="poleras.html">
+                <img src="../../Documents/Sitio sin nombre 2/poleras.jpeg" alt="Poleras" class="product-image"/>
+				<div class="details">
+			<h2>Caracteristicas Principales</h2>
+			<ul>
+				<li>Calidad Superior</li>
+				<li>Sostenible y Ecoogico</li>
+				<li>Disenio Moderno yAtractivo</li>
+				</ul>
+				<p class="price">Solo <span>Bs.50</span>(Precio Regular: Bs. 75)</p>
+			</div>
+            </a>
+        </div>
+
+        <!-- Botón para el dropdown -->
+        <div class="dropdown">
+            <button onclick="toggleDropdown()" class="dropbtn">Menú</button>
+            <div id="dropdownMenu" class="dropdown-content">
+                <a href="#"
